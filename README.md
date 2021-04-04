@@ -1,15 +1,22 @@
 # Slack Bolt - Hello World
 
-This is an example app built with [Slack's Bolt Framework](https://slack.dev/bolt/tutorial/getting-started) for Node.js.
+[![Run on Repl.it](https://repl.it/badge/github/remarkablemark/slack-bolt-hello-world)](https://repl.it/github/remarkablemark/slack-bolt-hello-world)
+![GitHub last commit](https://img.shields.io/github/last-commit/remarkablemark/slack-bolt-hello-world)
 
-The app shows a welcome message when a user opens the "app home".
+The app, which is built with [Slack's Bolt Framework](https://slack.dev/bolt/tutorial/getting-started) for Node.js, displays a welcome message when a user opens the "app home".
 
 The app is inspired by the ["Hello World, Bolt ⚡️ - Building your very first app with Bolt"](https://api.slack.com/tutorials/hello-world-bolt) tutorial.
 
-[Repl.it](https://repl.it/@remarkablemark/slack-bolt-hello-world)
+Built with:
+
+- [@slack/bolt](https://www.npmjs.com/package/@slack/bolt)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+
+See [Repl.it](https://repl.it/@remarkablemark/slack-bolt-hello-world) example.
 
 ## Prerequisites
 
+- [Node.js](https://nodejs.org/)
 - [Slack workspace](https://slack.com/help/articles/206845317-Create-a-Slack-workspace)
 - [Slack app](https://api.slack.com/apps/new)
 
