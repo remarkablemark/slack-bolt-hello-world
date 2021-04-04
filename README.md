@@ -5,9 +5,7 @@
 
 The app, which is built with [Slack's Bolt Framework](https://slack.dev/bolt/tutorial/getting-started) for Node.js, displays a welcome message when a user opens the "app home".
 
-The app is inspired by the ["Hello World, Bolt ⚡️ - Building your very first app with Bolt"](https://api.slack.com/tutorials/hello-world-bolt) tutorial.
-
-Built with:
+This is inspired by the ["Hello World, Bolt ⚡️ - Building your very first app with Bolt"](https://api.slack.com/tutorials/hello-world-bolt) tutorial. The app is built with:
 
 - [@slack/bolt](https://www.npmjs.com/package/@slack/bolt)
 - [dotenv](https://www.npmjs.com/package/dotenv)
