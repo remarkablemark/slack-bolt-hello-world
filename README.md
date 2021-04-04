@@ -3,14 +3,14 @@
 [![Run on Repl.it](https://repl.it/badge/github/remarkablemark/slack-bolt-hello-world)](https://repl.it/github/remarkablemark/slack-bolt-hello-world)
 ![GitHub last commit](https://img.shields.io/github/last-commit/remarkablemark/slack-bolt-hello-world)
 
-The app, which is built with [Slack's Bolt Framework](https://slack.dev/bolt/tutorial/getting-started) for Node.js, displays a welcome message when a user opens the "app home".
+The Slack app displays a welcome message when a user opens "app home". It's inspired by the ["Hello World, Bolt ⚡️ - Building your very first app with Bolt"](https://api.slack.com/tutorials/hello-world-bolt) tutorial.
 
-This is inspired by the ["Hello World, Bolt ⚡️ - Building your very first app with Bolt"](https://api.slack.com/tutorials/hello-world-bolt) tutorial. The app is built with:
+The app is built with:
 
 - [@slack/bolt](https://www.npmjs.com/package/@slack/bolt)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 
-See [Repl.it](https://repl.it/@remarkablemark/slack-bolt-hello-world) example.
+Watch the [YouTube video](https://youtu.be/QBRHcGGTRCY) or check out [Repl.it](https://repl.it/@remarkablemark/slack-bolt-hello-world).
 
 ## Prerequisites
 
