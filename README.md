@@ -50,7 +50,7 @@ Copy the **Bot User OAuth Token**:
 
 Set the environment variables:
 
-```sh
+```
 SLACK_SIGNING_SECRET=abc123
 SLACK_BOT_USER_OAUTH_TOKEN=xoxb-123-456-abc
 ```
@@ -73,7 +73,11 @@ To expose your local server to the public internet, use [ngrok](https://ngrok.co
 ngrok http 3000
 ```
 
-Update the **Request URL** in [Requirements](#requirements) to your ngrok URL: https://123abc.ngrok.io
+Update the **Request URL** in [Requirements](#requirements) to your ngrok URL:
+
+```
+https://123abc.ngrok.io
+```
 
 ## Features
 
