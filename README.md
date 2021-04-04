@@ -16,21 +16,20 @@ See [Repl.it](https://repl.it/@remarkablemark/slack-bolt-hello-world) example.
 
 - [Node.js](https://nodejs.org/)
 - [Slack workspace](https://slack.com/help/articles/206845317-Create-a-Slack-workspace)
-- [Slack app](https://api.slack.com/apps/new)
 
 ## Requirements
 
-- A Bot User must be added to your app
-  - **Features** > **OAuth & Permissions** > **Scopes** > **Bot Token Scopes** > **Add an OAuth Scope**: `chat:write`
-- Your app must be subscribed to [Events API](https://api.slack.com/events-api)
-  - **Features** > **Event Subscriptions** > **Enable Events**:
-    - Turn `On`
-    - Change `Request URL` to: `https://<my-domain.com>/slack/events`
-    - **Subscribe to events on behalf of users** > **Add Workspace Event**: `app_home_opened`
-- Your app needs to be subscribed to the events mentioned in the _Events_ section
-  - **Features** > **Event Subscriptions** > **Subscribe to events on behalf of users** > **Add Workspace Event**: `app_home_opened`
-- Install app to workspace
-  - **Settings** > **Install App** > **Install to Workspace**
+1. [Create a Slack app](https://api.slack.com/apps/new)
+2. Add a Bot User:
+   - **Features** > **OAuth & Permissions** > **Scopes** > **Bot Token Scopes** > **Add an OAuth Scope**: `chat:write`
+3. Install to Workspace:
+   - **Features** > **OAuth & Permissions** > **OAuth Tokens & Redirect URLs** > **Install to Workspace**
+4. Enable Events:
+   - **Features** > **Event Subscriptions** > **Enable Events**: `On`
+5. Set **Request URL**:
+   - **Features** > **Event Subscriptions** > **Request URL**: `https://my.app.com/slack/events`
+6. Subscribe to the [event](https://api.slack.com/events-api):
+   - **Features** > **Event Subscriptions** > **Subscribe to events on behalf of users** > **Add Workspace Event**: `app_home_opened`
 
 ## Environment Variables
 
