@@ -33,10 +33,10 @@ See [Repl.it](https://repl.it/@remarkablemark/slack-bolt-hello-world) example.
 
 ## Environment Variables
 
-Create `.env` from `.env.sample`:
+Create `.env` from `.env.example`:
 
 ```sh
-cp .env.sample .env
+cp .env.example .env
 ```
 
 Copy the **Signing Secret**:
