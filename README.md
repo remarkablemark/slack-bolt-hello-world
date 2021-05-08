@@ -29,7 +29,7 @@ Watch the [YouTube video](https://youtu.be/QBRHcGGTRCY) or check out [Repl.it](h
 5. Set **Request URL**:
    - **Features** > **Event Subscriptions** > **Request URL**: `https://my.app.com/slack/events`
 6. Subscribe to the [event](https://api.slack.com/events-api):
-   - **Features** > **Event Subscriptions** > **Subscribe to events on behalf of users** > **Add Workspace Event**: `app_home_opened`
+   - **Features** > **Event Subscriptions** > **Subscribe to events on behalf of users** > **Add Workspace Event**: `app_home`
 
 ## Environment Variables
 
