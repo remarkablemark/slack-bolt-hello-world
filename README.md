@@ -23,7 +23,7 @@ Watch the [YouTube video](https://youtu.be/QBRHcGGTRCY) or check out [Repl.it](h
 2. Add a Bot User:
    - **Features** > **OAuth & Permissions** > **Scopes** > **Bot Token Scopes** > **Add an OAuth Scope**: `chat:write`
 3. Install to Workspace:
-   - **Features** > **OAuth & Permissions** > **OAuth Tokens & Redirect URLs** > **Install to Workspace**
+   - **Features** > **OAuth & Permissions** > **OAuth Tokens for Your Workspace** > **Install to Workspace**
 4. Enable Events:
    - **Features** > **Event Subscriptions** > **Enable Events**: `On`
 5. Set **Request URL**:
