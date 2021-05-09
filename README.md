@@ -30,7 +30,7 @@ Go to **Features** > **Event Subscriptions**:
 
 1. **Enable Events**: `On`
 2. **Request URL**: `https://my.app.com/slack/events`
-3. **Subscribe to events on behalf of users** > **Add Workspace Event**: `app_home`
+3. **Subscribe to bot events** > **Add Workspace Event**: `app_home_opened`
 4. **Save Changes**
 
 ## Environment Variables
