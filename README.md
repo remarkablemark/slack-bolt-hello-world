@@ -27,7 +27,7 @@ Watch the [YouTube video](https://youtu.be/QBRHcGGTRCY) or check out [Repl.it](h
 4. Enable Events:
    - **Features** > **Event Subscriptions** > **Enable Events**: `On`
 5. Set **Request URL**:
-   - **Features** > **Event Subscriptions** > **Request URL**: `https://my.app.com/slack/events`
+   - **Features** > **Event Subscriptions** > **Request URL**: `https://my.app.com/slack/events` > **Save Changes**
 6. Subscribe to the [event](https://api.slack.com/events-api):
    - **Features** > **Event Subscriptions** > **Subscribe to events on behalf of users** > **Add Workspace Event**: `app_home`
 
