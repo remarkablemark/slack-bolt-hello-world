@@ -45,7 +45,7 @@ Copy the **Signing Secret**:
 
 Copy the **Bot User OAuth Token**:
 
-- **Settings** > **Install App** > **OAuth Tokens for Your Team** > **Bot User OAuth Token**
+- **Settings** > **Install App** > **OAuth Tokens for Your Workspace** > **Bot User OAuth Token**
 
 Set the environment variables:
 
